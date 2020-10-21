@@ -72,11 +72,64 @@ img {
   clear: both;
 }
 
-@media screen and  (max-width: 1010px) {
-
+@media screen and (max-width: 1020px) {
 
   .container {
     width: 100%;
+    font-size: 18px;
+    margin: 0;
+  }
+  .row {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+    text-align: center;
+  }
+  .container.grey {
+    padding: 20px 0;
+    margin: 20px 0;
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 50%;
+    margin-top: 30px;
+  }
+  #why hr {
+    display: none;
+  }
+  #why img {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+
+  h1 {
+    font-size: 30px;
+  }
+  h3 {
+    font-size: 25px;
+  }
+  .container {
+    width: 100%;
+    font-size: 18px;
+    margin: 0;
+  }
+  #lezioni {
+    width: 100%;
+  }
+  .row {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 50px;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 100%;
+    margin-bottom: 20px;
   }
   .container.grey {
     width: 100%;
@@ -87,60 +140,13 @@ img {
   #steps .row>.left,
   #steps .row>.central,
   #steps .row>.right {
-    width: 50%;
-    margin-top: 30px;
-    }
-
-    #why hr {
-      display: none;
-}
-
-@media screen and  (max-width: 420px) {
-
-  h1 {
-    font-size: 30px;
-  }
-  h3 {
-    font-size: 25px;
-  }
-  .container {
-    font-size: 18px;
-  }
-  #lezioni {
-    width: 100%;
-  }
-  .row {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
-  }
-  #lezioni .row>.left,
-  #lezioni .row>.right {
-    width: 100%;
-    margin-bottom: 20px;
-  }
-  #lezioni .row img {
-    width: 90px;
-
-  }
-  .container.grey {
-    width: 100%;
-    background-color: #f9f9f9;
-    padding: 20px;
-    margin: 20px 0;
-  }
-  #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
     width: 100%;
     margin-top: 30px;
-    }
-
-    #why hr {
-      display: none;
-    }
-    #why img {
-      height: 100px;
-    }
+  }
+  #why hr {
+    display: none;
+  }
+  #why img {
+    height: 100px;
+  }
 }
